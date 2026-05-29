@@ -7,7 +7,7 @@ app.use(express.json());
 
 const GELATO_API_KEY = process.env.GELATO_API_KEY;
 const SQUARE_WEBHOOK_SIGNATURE_KEY = process.env.SQUARE_WEBHOOK_SIGNATURE_KEY;
-const GELATO_API_URL = 'https://gelatoapis.com';
+const GELATO_API_URL = 'https://order.gelatoapis.com/v1/orders';
 
 app.post('/webhook/square', async (req, res) => {
   // TODO: Add robust signature verification for Square Webhooks
