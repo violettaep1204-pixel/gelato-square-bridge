@@ -1,0 +1,10 @@
+services:
+  gelato-bridge:
+    build: .
+    container_name: gelato-square-bridge
+    ports:
+      - "3000:3000"
+    environment:
+      - GELATO_API_KEY=${GELATO_API_KEY}
+      - SQUARE_WEBHOOK_SIGNATURE_KEY=${SQUARE_WEBHOOK_SIGNATURE_KEY}
+    restart: unless-stopped
