@@ -13,8 +13,8 @@ const GELATO_API_URL = 'https://order.gelatoapis.com/v1/orders';
 // Update this with your actual product mappings from Square to Gelato
 const PRODUCT_MAP = {
   // Format: 'SQUARE_CATALOG_ID': 'GELATO_PRODUCT_UID'
-  // Example: 'GELATO_TSHIRT_001': '98465799-1ada-4f68-9cde-cabcd77dbc95'
-  // Add your mappings here
+  '863c39b8-3862-44d1-8245-42a9d4cd2808': '863c39b8-3862-44d1-8245-42a9d4cd2808', // Clover Kaleida Flexi Case (Samsung)
+  // Add more mappings here
 };
 
 // Helper function to get Gelato Product UID from Square catalog object ID
