@@ -15,6 +15,7 @@ const PRODUCT_MAP = {
   // Format: 'SQUARE_CATALOG_ID': 'GELATO_PRODUCT_UID'
   'XBG4JS4SNU73KS5K2B7ZGMDS': '863c39b8-3862-44d1-8245-42a9d4cd2808', // Clover Kaleida Flexi Case (Samsung)
   'LKEVQ7ZVY3IURZOYQBYW7CNI': '92421142-b107-4621-8219-f6ac2de72bfc', // Product 2
+  'RYQ7XPNOFTYSDGIK4Q5CVKGA': 'ccfff7fe-0e3e-4285-a555-ed38f905e7d3', // Product 3
   // Add more mappings here
 };
 
