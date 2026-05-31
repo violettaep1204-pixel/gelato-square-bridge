@@ -16,6 +16,7 @@ const PRODUCT_MAP = {
   'XBG4JS4SNU73KS5K2B7ZGMDS': '863c39b8-3862-44d1-8245-42a9d4cd2808', // Clover Kaleida Flexi Case (Samsung)
   'LKEVQ7ZVY3IURZOYQBYW7CNI': '92421142-b107-4621-8219-f6ac2de72bfc', // Product 2
   'RYQ7XPNOFTYSDGIK4Q5CVKGA': 'ccfff7fe-0e3e-4285-a555-ed38f905e7d3', // Product 3
+  'MSIYVZ3R37WA656YEF4TMESY': '1ba6ec47-e2d1-4323-8cbc-5d9e75a8ed9d', // Product 4
   // Add more mappings here
 };
 
