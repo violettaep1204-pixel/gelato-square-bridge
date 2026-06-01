@@ -21,6 +21,7 @@ const PRODUCT_MAP = {
   'XHH22DRRMJCP5WBKBMTFQE7Z': '149e0790-49e5-417d-b4e0-28a1e4d44bfb', // Product 6
   'U7GPLISRPDPURID7WCVFSSPQ': '72b89475-d52f-4e90-a60f-104db2cfa54f', // Product 7
   'IOM3CHCRBR6D5II43KYGHK2Z': 'dc93e4bf-dd4d-4e1f-a872-fe9427f4de43', // Product 8
+  'QERD2OTQL3Z5NRAT4CZ4DZDV': '1ec9db61-f1de-4b1e-948a-f846e0d15f1a', // Product 9
   // Add more mappings here
 };
 
