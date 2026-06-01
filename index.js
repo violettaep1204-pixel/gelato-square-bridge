@@ -19,6 +19,7 @@ const PRODUCT_MAP = {
   'MSIYVZ3R37WA656YEF4TMESY': '1ba6ec47-e2d1-4323-8cbc-5d9e75a8ed9d', // Product 4
   'WOZ2FDRCFY2P5GC7TTLXJE27': 'a20a310c-4ea3-4988-95dc-21cb56571a4c', // Product 5
   'XHH22DRRMJCP5WBKBMTFQE7Z': '149e0790-49e5-417d-b4e0-28a1e4d44bfb', // Product 6
+  'U7GPLISRPDPURID7WCVFSSPQ': '72b89475-d52f-4e90-a60f-104db2cfa54f', // Product 7
   // Add more mappings here
 };
 
