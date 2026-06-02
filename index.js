@@ -10,7 +10,8 @@ const SQUARE_WEBHOOK_SIGNATURE_KEY = process.env.SQUARE_WEBHOOK_SIGNATURE_KEY;
 const GELATO_API_URL = 'https://order.gelatoapis.com/v1/orders';
 
 // Product mapping: Square Catalog Object ID -> Gelato Product UID
-// Update this with your actual product mappings from Square to Gelato
+// Includes both base products and individual variants
+// Update this with your actual product and variant mappings from Square to Gelato
 const PRODUCT_MAP = {
   // Format: 'SQUARE_CATALOG_ID': 'GELATO_PRODUCT_UID'
   'XBG4JS4SNU73KS5K2B7ZGMDS': '863c39b8-3862-44d1-8245-42a9d4cd2808', // Clover Kaleida Flexi Case (Samsung)
@@ -32,7 +33,10 @@ const PRODUCT_MAP = {
   'OOQPCTPCUFFYVQEDEKKFTG5N': '97bcc89d-24c8-49ad-b181-b30a08550f03', // Product 17
   'R5AALE2JVIHZUZJVJLUIRM4S': '8e7a74e9-1fe3-4515-b567-3affbe856622', // Product 18
   'DV4ROZTWI4ZUZU3U5HXUPYFY': '97bcc89d-24c8-49ad-b181-b30a08550f03', // Product 19
-  // Add more mappings here
+  
+  // Product Variants
+  'CHCB75M4C4DRJ5SENQU53QNT': 'e1d8d44e-55f4-485e-9c6b-298e345b8bfd', // Galaxy S23 Plus variant
+  // Add more variant mappings here
 };
 
 // Helper function to get Gelato Product UID from Square catalog object ID
